@@ -4,8 +4,9 @@
 
 .navbar
 {
-    background-color: rgb(1, 1, 32);
+    background-color: red;
     border-radius: 30px;
+    
     
 }
 .pagetitle
@@ -17,6 +18,7 @@
     float: left;
     list-style: none;
     margin: 13px 20px;
+    
 }
 
 .navbar ul
@@ -33,7 +35,7 @@
 
 .navbar li a:hover
 {
-    color: red;
+    color: black;
 }
 
 .search
@@ -53,7 +55,7 @@
 
 body
 {
-    background-color:#0c0046;
+    background-color:blue;
     color: white;
 }
 h2 
