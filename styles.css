@@ -12,6 +12,10 @@
     
     
 }
+.projects ul
+{
+    font-size: 30px;
+}
 .pagetitle
 {
     margin-left: 50px;
@@ -77,3 +81,4 @@ h2
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
 }
+
