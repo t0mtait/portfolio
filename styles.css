@@ -53,8 +53,9 @@
 
 .navbar input 
 {
-    border: 2px solid black;
+    border: 2px solid #708090;
     border-radius: 14px;
+    height: 20px;
     padding: 3px 17px;
     width: 129px;
 }
