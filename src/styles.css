@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Reset default margins and paddings */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Center the header text */
+header h1 {
+    text-align: center;
+    color: #fff;
+}
+
+/* Style the navbar */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: #555;
+}
+
+/* Style the main content */
+main {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Style the buttons */
+.btn {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* Remove bullet points from project list */
+.project-list {
+    list-style-type: none;
+}
+
