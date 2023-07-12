@@ -60,3 +60,9 @@ body
     cursor:pointer
     background-color: #1452c5;
 }
+
+.btn-home:hover
+{
+    cursor:pointer;
+    background-color: #1452c5;
+}
