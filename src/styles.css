@@ -42,6 +42,7 @@ body
 .btn:hover
 {
     cursor:pointer;
+    background-color: #1452c5;
 }
 
 .btn-home
@@ -57,4 +58,5 @@ body
 .btn-home:hover
 {
     cursor:pointer
+    background-color: #1452c5;
 }
