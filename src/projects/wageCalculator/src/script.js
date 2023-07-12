@@ -22,7 +22,7 @@ y.innerHTML = x.toFixed(2);
 
 //get current day of the month
 var date = today.getDate();
-x += (160.60 * (date-1));
+x += (114.714285714 * (date-1));
 y = document.getElementById("month");
 y.innerHTML = x.toFixed(2);
 
