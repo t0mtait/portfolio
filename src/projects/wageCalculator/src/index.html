@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    </head>
+
+
+<body>
+        <div class="container">
+            <h1 class = "txt" id = "hdr">earnings calculator</h1>
+            <p>Salary</p>
+            <input class = "inp" type = number>
+            <br>
+            <p>Workday start</p>
+            <input type = "time" class = "inp" id = "start" placeholder="Workday start time">
+            <br>
+            <p>Workday end</p>
+            <input type = "time" class = "inp" id = "end" placeholder="Workday end time">
+            <br>
+            <button class = "btn" onclick = "calculate()" id = "calc-btn">calculate</button>
+            
+
+            <p class = "txt">Today you have earned: <span id = "todayEarned">0</span>$</p>
+            <p class = "txt">Today you have done: <span id = "todayWorked">0</span>$ worth of work! </p>
+            <button onclick = "viewAdvanced()" class = "btn">Advanced Analytics</button>
+            <button onclick = "howItWorks()" class = "btn">How it works</button>
+        </div>
+
+</body>
+</html>
