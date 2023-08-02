@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    </head>
+
+
+<body>
+        <div class="container">
+            <h1 class = "txt" id = "hdr">Earnings Calculator</h1>
+            <p class = "txt">Salary</p>
+            <input class = "inp" type = number id = "salary">
+            <br>
+            <p class = "txt">Workday start</p>
+            <input type = "time" class = "inp" id = "start" placeholder="Workday start time">
+            <br>
+            <p class = "txt">Workday end</p>
+            <input type = "time" class = "inp" id = "end" placeholder="Workday end time">
+            <br>
+            <button class = "btn" onclick ="calculate()" id = "calc-btn">calculate</button>
+            <span class = "txt" id = "todayEarned"></span>
+            <br>
+            
+            <button onclick = "viewAdvanced()" class = "btn">Advanced Analytics</button>
+            <button onclick = "howItWorks()" class = "btn">How it works</button>
+        </div>
+
+</body>
+</html>
