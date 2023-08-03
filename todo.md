@@ -2,23 +2,23 @@
 
 
 ### HIGH-P# ##
-remove .html at end of urls
+* remove .html at end of urls
 
 
 ### MODERATE-P ###
-use a new way of linking projects to portfolio (other than sub-folders)
+* use a new way of linking projects to portfolio (other than sub-folders)
 
 
 ### LOW-P ###
-add a dark mode toggler
+* add a dark mode toggler
 
-create some sort of project using database technology
+* create some sort of project using database technology
 
-create some sort of project using an external API
+* create some sort of project using an external API
 
-create an API
+* create an API
 
-use the api i created in a new project
+* use the api i created in a new project
 
 
 
