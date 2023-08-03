@@ -3,6 +3,7 @@
 
 ### HIGH-P ###
 * remove .html at end of urls
+* get rid of .src in url
 
 
 ### MODERATE-P ###
