@@ -111,9 +111,8 @@ h1 {
     transition: left 0.3s;
   }
   
-  .toggle-switch input[type="checkbox"]:checked + .toggle-label {
-    left: 22px;
-  }
+
+
   
  
   
