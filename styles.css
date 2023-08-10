@@ -31,12 +31,24 @@ body {
 
 .container {
     border: 2px solid black;
-    width: 450px;
+    width: 90%;
     background: #fff;
     border-radius: 8px;
     text-align: center;
     padding: 20px; /* Adjust padding */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a box shadow */
+}
+
+@media (min-width: 600px) {
+    .container {
+    border: 2px solid black;
+    width: 325px;
+    background: #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px; /* Adjust padding */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a box shadow */
+  }
 }
 
 h1 {
