@@ -41,9 +41,9 @@ body {
 
 @media (min-width: 600px) {
     .container {
-    border: 2px solid black;
+    border: 2px solid white;
     width: 325px;
-    background: #fff;
+    background: black;
     border-radius: 8px;
     text-align: center;
     padding: 20px; /* Adjust padding */
@@ -54,7 +54,7 @@ body {
 h1 {
     font-size: 48px;
     font-weight: 650;
-    color: #1452c5; /* Change the header text color */
+    color: white; /* Change the header text color */
     margin-bottom: 20px; /* Add margin below the header */
 }
 
@@ -71,7 +71,7 @@ h1 {
 
 .btn:hover {
     cursor: pointer;
-    background-color: #407ff3;
+    background-color: red;
     color: white;
 }
 
