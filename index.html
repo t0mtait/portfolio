@@ -39,8 +39,8 @@
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About me</h1>
             <p class="lead">Hi! I am a third year Computer Science major at the University of New Brunswick.
-              I have a passion for web development, and love to build applications and solve complex algorithm questions through LeetCoding. 
-             On this page, you can find information about my past work experience, my side projects, and ways in which you can contact me.</p>
+              I have a passion for learning the latest web development technologies, and love to solve LeetCode problems in my free time. 
+             <br><br>On this page, you can find information about my past work experience, my side projects, and ways in which you can contact me.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
               <button type="button" id = "linkedin" class="btn btn-primary btn-lg px-4 me-md-2">LinkedIn</button>
               <button type="button" id = "github" class="btn btn-success btn-lg px-4">GitHub</button>
@@ -154,7 +154,28 @@
         </div>
       </div>
 
+      <div class="p-5 text-center bg-body-tertiary rounded-3">
+        <h1 class="text-body-emphasis" id = "contactsection">Contact</h1>
+      </div>
+      <form>
+        <div class="contact-form container">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          
+          <label for="exampleFormControlInput1">Subject</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="...">
+          
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        </div>
+      </form>
       <script src = "index.js"></script>
+      
 </body>
 
 </html>
