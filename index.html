@@ -31,12 +31,9 @@
         </header>
       </div>
 
-      <div id = "aboutsection" class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="media/tomtait.png" class="d-block mx-lg-auto meimg img-fluid" alt="Bootstrap Themes" width="500" height="400" loading="lazy">
-          </div>
-          <div class="col-lg-6">
+      <div id = "aboutsection" class="container col-xxl-12 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center">
+          <div class="col-lg-6 col-md-8">
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About me</h1>
             <p class="lead">Hi! I am a third year Computer Science major at the University of New Brunswick.
               I have a passion for learning the latest web development technologies, and love to solve LeetCode problems in my free time. 
@@ -45,6 +42,9 @@
               <button type="button" id = "linkedin" class="btn btn-primary btn-lg px-4 me-md-2">LinkedIn</button>
               <button type="button" id = "github" class="btn btn-success btn-lg px-4">GitHub</button>
             </div>
+          </div>
+          <div class="col-4 col-sm-4 col-lg-6">
+            <img src="media/tomtait.png" class="d-block mx-lg-auto meimg img-fluid" alt="Bootstrap Themes" width="400" height="400" loading="lazy">
           </div>
         </div>
       </div>
@@ -61,19 +61,17 @@
         <hr class="featurette-divider">
     
         <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">Software Developer <span class="text-body-secondary mx-4">Sonrai Security</span></h2>
+          <div class="col-md-8">
+            <h2 class="featurette-heading fw-normal lh-1">Software Developer</h2>
+            <h4><span class="text-body-secondary">Sonrai Security</span></h4>
             <p class="lead">January 2024 - August 2024</p>
             <ul>
-                <li>Worked with a team to develop and maintain a cloud security platform</li>
+                <li>Worked to develop and maintain a cloud security platform</li>
                 <li>Tested robust applications using Cypress and Javascript</li>
-                <li>Worked on the frontent of our CyberSecurity platform with HTML, CSS, and JavaScript</li>
-                <li>Built scripts with Terraform and AWS' API for automated solution testing</li>
-                
-                
+                <li>Wrote Terraform for dynamic infrastructure testing</li>
             </ul>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-4">
             <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="400" src="./media/sonrai.png" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
           </div>
         </div>
@@ -81,16 +79,17 @@
         <hr class="featurette-divider">
     
         <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">Software Developer <span class="text-body-secondary mx-4">Irving Oil</span></h2>
-            <p class="lead">May 2023 - August 2023</p>
+          <div class="col-md-8 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">Software Developer</h2>
+            <h4><span class="text-body-secondary">Irving Oil</span></h4>
+            <h6 class="lead">May 2023 - August 2023</h6>
             <ul>
-                <li>Participated in the development and deployment of C# Rest API</li>
-                <li>Worked in the creation and management of SQL databases</li>
-                <li>Worked with AWS Technologies such as AWS Lambda and Telephony</li>
+                <li>Participated in the development and deployment of C# Rest API's</li>
+                <li>Created and optimized SQL databases</li>
+                <li>Updated our customer service using AWS Lambda and Telephony</li>
             </ul>
           </div>
-          <div class="col-md-5 order-md-1">
+          <div class="col-md-4 order-md-1">
             <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="400" src="./media/irving.png" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
           </div>
         </div>
@@ -103,48 +102,59 @@
     <div id = "projectssection" class="album py-5 bg-body-tertiary">
         <div class="container">
     
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="row row-cols-2">
             <div class="col">
-              <div class="card shadow-sm">
-                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="media/encryptor.png" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+              <div class="card shadow-sm mx-1">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="200" src="media/encryptor.png" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
                 <div class="card-body">
                   <h3 class="card-text">Message Encryptor</h3>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" id = "encryptorView" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" id = "encryptorGit" class="btn btn-sm btn-outline-secondary">GitHub</button>
+                      <button type="button" id = "encryptorView" class="btn btn-md btn-outline-secondary">View</button>
+                      <button type="button" id = "encryptorGit" class="btn btn-md btn-outline-secondary">GitHub</button>
                     </div>
-                    <small class="text-body-secondary">HTML,CSS,JS,AWS</small>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card shadow-sm">
-                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="media/simon.png" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+              <div class="card shadow-sm mx-1">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="200" src="media/simon.png" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
                 <div class="card-body">
                   <h3 class="card-text">Simon</h3>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" id = "simonView" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" id = "simonGit" class="btn btn-sm btn-outline-secondary">GitHub</button>
+                      <button type="button" id = "simonView" class="btn btn-md btn-outline-secondary">View</button>
+                      <button type="button" id = "simonGit" class="btn btn-md btn-outline-secondary">GitHub</button>
                     </div>
-                    <small class="text-body-secondary">HTML,CSS,JS</small>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card shadow-sm">
-                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="media/passwordgenerator.png" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+              <div class="card shadow-sm my-4 mx-1">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="200" src="media/passwordgenerator.png" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
                 <div class="card-body">
                   <h3 class="card-text">Password Generator</h3>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" id = "passwordView" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" id = "passwordGit" class="btn btn-sm btn-outline-secondary">GitHub</button>
+                      <button type="button" id = "passwordView" class="btn btn-md btn-outline-secondary">View</button>
+                      <button type="button" id = "passwordGit" class="btn btn-md btn-outline-secondary">GitHub</button>
                     </div>
-                    <small class="text-body-secondary">HTML,CSS,JS</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm my-4 mx-1">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="200" src="media/passwordgenerator.png" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                <div class="card-body">
+                  <h3 class="card-text">Coming soon...</h3>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" id = "passwordView" class="btn btn-md btn-outline-secondary">View</button>
+                      <button type="button" id = "passwordGit" class="btn btn-md btn-outline-secondary">GitHub</button>
+                    </div>
                   </div>
                 </div>
               </div>
