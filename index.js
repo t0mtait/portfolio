@@ -17,12 +17,6 @@ document.getElementById("github").onclick = function() {
     location.href = "https://github.com/t0mtait"
 }
 
-document.getElementById("encryptorView").onclick = function() {
-    location.href = "https://encryptor.tomtait.dev"
-}
-document.getElementById("encryptorGit").onclick = function() {
-    alert("private repository. public coming soon!")
-}
 
 document.getElementById("simonView").onclick = function() {
     location.href = "https://simon.tomtait.dev"
@@ -31,12 +25,10 @@ document.getElementById("simonGit").onclick = function() {
     location.href = "https://github.com/t0mtait/simon"
 }
 
-document.getElementById("androidGit").onclick = function() {
-    location.href = "https://github.com/t0mtait/mapgame"
+document.getElementById("translatorView").onclick = function() {
+    location.href = "https://translator.tomtait.dev"
 }
 
 document.getElementById("translatorGit").onclick = function() {
     location.href = "https://github.com/t0mtait/translator"
 }
-
-
