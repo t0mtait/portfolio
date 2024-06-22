@@ -5,6 +5,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link href="styling.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 </head>
 
 
@@ -142,26 +143,22 @@
     <div class="p-5 text-center bg-body-tertiary rounded-3">
       <h1 id = "contactsection" class="text-body-emphasis">Contact</h1>
   </div>
-      <form>
-        <div class="contact-form container">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          
-          <label for="exampleFormControlInput1">Subject</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="...">
-          
-          <label for="exampleFormControlTextarea1">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-
-          <input type="file" class="form-control-file" id="exampleFormControlFile1">
-        </div>
-        <div class="text-center">
-          <button type="submit" class="btn btn-primary mb-2">Submit</button>
-        </div>
-      </form>
-      <script src = "index.js"></script>
+    <form action="https://send.pageclip.co/fR8ObqAb9h7KXISwSWFLSpPOKxNppQGS/portfolio-contact-form" class="pageclip-form" method="post">
+      <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+    
+      <!-- It looks like you are creating a contact form. These email and subject fields are special -->
+      <!-- See https://pageclip.co/docs#special-fields for more info -->
+      <input type="email" class="form-control mt-2" name="email" value="roscoe@example.com" />
+      <input type="text" class="form-control mt-2" name="subject" value="A contact subject" />
+    
+      <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+      <button type="submit" class="pageclip-form__submit mt-2">
+        <span>Send</span>
+      </button>
+    </form>
   </div>
-      
+  <script src = "index.js"></script>
+  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 
 </html>
