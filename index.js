@@ -1,11 +1,11 @@
 document.getElementById('btnSwitch').addEventListener('click',()=> {
     if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
         document.documentElement.setAttribute('data-bs-theme','light')
-        document.getElementById('btnSwitch').innerHTML = "Light"
+        document.getElementById('btnSwitch').innerHTML = "Light Mode"
     }
     else {
         document.documentElement.setAttribute('data-bs-theme','dark')
-        document.getElementById('btnSwitch').innerHTML = "Dark"
+        document.getElementById('btnSwitch').innerHTML = "Dark Mode"
     }
 })
 
@@ -23,6 +23,9 @@ document.getElementById("simonView").onclick = function() {
 }
 document.getElementById("simonGit").onclick = function() {
     location.href = "https://github.com/t0mtait/simon"
+}
+document.getElementById("cryptoGit").onclick = function() {
+    location.href = "https://github.com/t0mtait/cryptoport"
 }
 
 document.getElementById("translatorView").onclick = function() {
