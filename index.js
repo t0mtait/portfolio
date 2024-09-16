@@ -24,6 +24,9 @@ document.getElementById("simonView").onclick = function() {
 document.getElementById("simonGit").onclick = function() {
     location.href = "https://github.com/t0mtait/simon"
 }
+document.getElementById("cryptoView").onclick = function() {
+    location.href = "https://cryptoport.tomtait.dev"
+}
 document.getElementById("cryptoGit").onclick = function() {
     location.href = "https://github.com/t0mtait/cryptoport"
 }
