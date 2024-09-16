@@ -26,7 +26,6 @@
           <ul class="nav nav-pills">
             <li class="nav-item"><a href="#" class="nav-link" aria-current="page">About</a></li>
             <li class="nav-item"><a href="#experiencesection" class="nav-link">Work Experience</a></li>
-            <li class="nav-item"><a href="#skillsection" class="nav-link">Skills</a></li>
             <li class="nav-item"><a href="#projectssection" class="nav-link">Projects</a></li>
             <li class="nav-item"><a href="#contactsection" class="nav-link">Contact</a></li>
             <li>
@@ -71,7 +70,7 @@
             <ul>
                 <li>Worked to develop and maintain a cloud security platform <strong>[AWS]</strong></li>
                 <li>Wrote end to end tests for our web application. <strong>[JavaScript, Cypress, Playwright]</strong></li>
-                <li>Built a script to create and destroy cloud resources every night to cut our AWS costs. <strong>[Python, Terraform, Bash]</strong></li>
+                <li>Built a script to create and destroy cloud resources every night to cut our AWS, Azure, and GCP costs. <strong>[Python, Terraform, Bash]</strong></li>
             </ul>
           </div>
           <div class="col-md-4">
@@ -127,12 +126,12 @@
   
       <div class="row featurette">
         <div class="col-md-8">
-          <h2 class="featurette-heading fw-normal lh-1">Simon</h2>
-          <button class = "btn btn-success btn-sm" id = "simonView">Play</button> <button class = "btn btn-primary btn-sm" id = "simonGit">GitHub</button>
+          <h2 class="featurette-heading fw-normal lh-1">Playwright</h2>
+          <button class = "btn btn-primary btn-sm" id = "playwrightGit" >GitHub</button>
           <ul>
-              <li>Created using HTML, CSS, and JavaScript.</li>
-              <li>Electronic game of short-term memory skill played in the browser. </li>
-              <li>Implements basic JavaScript functionality including functions,events, and element queries.</li>
+              <li>Created using the Playwright library and JavaScript.</li>
+              <li>Used to run automated testing on all my projects.</li>
+              <li>Great for regression testing after making changes to my webapps.</li>
           </ul>
         </div>
         <div class="col-md-4">
@@ -144,16 +143,16 @@
   
       <div class="row featurette">
         <div class="col-md-8">
-          <h2 class="featurette-heading fw-normal lh-1">Translator</h2>
-          <button class = "btn btn-success btn-sm" id = "translatorView">View</button> <button class = "btn btn-primary btn-sm" id = "translatorGit">GitHub</button>
+          <h2 class="featurette-heading fw-normal lh-1">City Guesser</h2>
+          <button class = "btn btn-success btn-sm" id = "cityView">Images</button> <button class = "btn btn-primary btn-sm" id = "cityGit">GitHub</button>
           <ul>
-              <li>Created using HTML, CSS, and JavaScript.</li>
-              <li>Webapp allowing user to translate text between languages</li>
-              <li>Implements the use of Google's public translation API</li>
+              <li>Created using Java, Kotlin, and FireStore.</li>
+              <li>Android game for guessing city names based off an image.</li>
+              <li>School project completed alongside two other students.</li>
           </ul>
         </div>
         <div class="col-md-4">
-          <img class="bd-placeholder-img bd-placeholder-img-lg rounded-3 featurette-image img-fluid mx-auto" width="400" height="400" src="./media/translator.png" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
+          <img class="bd-placeholder-img bd-placeholder-img-lg rounded-3 featurette-image img-fluid mx-auto" width="400" height="400" src="./media/citygame.jpg" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em"></text></svg>
         </div>
       </div>
   </div>
@@ -163,14 +162,9 @@
       <h1 id = "contactsection" class="text-body-emphasis">Contact</h1>
   </div>
     <form action="https://send.pageclip.co/fR8ObqAb9h7KXISwSWFLSpPOKxNppQGS/portfolio-contact-form" class="pageclip-form" method="post">
-      <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-    
-      <!-- It looks like you are creating a contact form. These email and subject fields are special -->
-      <!-- See https://pageclip.co/docs#special-fields for more info -->
-      <input type="email" class="form-control mt-2" name="email" placeholder="roscoe@example.com" />
+      <input type="email" class="form-control mt-2" name="email" placeholder="yourmail@mail.com" />
       <input type="text" class="form-control mt-2" name="subject" placeholder="A contact subject" />
       <textarea type="text" class="form-control mt-2" name="message" rows="3" placeholder="Write your message here..."></textarea>
-      <!-- This button will have a loading spinner. Keep the inner span for best results. -->
       <button type="submit" class="pageclip-form__submit mt-2">
         <span>Send</span>
       </button>

@@ -9,20 +9,11 @@ document.getElementById('btnSwitch').addEventListener('click',()=> {
     }
 })
 
-
 document.getElementById("linkedin").onclick = function() {
     location.href = "https://www.linkedin.com/in/tom-tait/"
 }
 document.getElementById("github").onclick = function() {
     location.href = "https://github.com/t0mtait"
-}
-
-
-document.getElementById("simonView").onclick = function() {
-    location.href = "https://simon.tomtait.dev"
-}
-document.getElementById("simonGit").onclick = function() {
-    location.href = "https://github.com/t0mtait/simon"
 }
 document.getElementById("cryptoView").onclick = function() {
     location.href = "https://cryptoport.tomtait.dev"
@@ -31,10 +22,13 @@ document.getElementById("cryptoGit").onclick = function() {
     location.href = "https://github.com/t0mtait/cryptoport"
 }
 
-document.getElementById("translatorView").onclick = function() {
-    location.href = "https://translator.tomtait.dev"
+document.getElementById("playwrightGit").onclick = function() {
+    location.href = "https://github.com/t0mtait/testing"
 }
 
-document.getElementById("translatorGit").onclick = function() {
-    location.href = "https://github.com/t0mtait/translator"
+document.getElementById("cityView").onclick = function() {
+    location.href = "https://imgur.com/a/lX40Mj1"
+}
+document.getElementById("cityGit").onclick = function() {
+    location.href = "https://github.com/t0mtait/mapgame"
 }
