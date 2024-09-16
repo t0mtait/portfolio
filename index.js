@@ -8,13 +8,13 @@ document.getElementById('btnSwitch').addEventListener('click',()=> {
         document.getElementById('btnSwitch').innerHTML = "Dark Mode"
     }
 })
-
 document.getElementById("linkedin").onclick = function() {
     location.href = "https://www.linkedin.com/in/tom-tait/"
 }
 document.getElementById("github").onclick = function() {
     location.href = "https://github.com/t0mtait"
 }
+
 document.getElementById("cryptoView").onclick = function() {
     location.href = "https://cryptoport.tomtait.dev"
 }
